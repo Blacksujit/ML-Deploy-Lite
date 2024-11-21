@@ -18,7 +18,7 @@ setup(
     description='A library to simplify ML model deployment',
     author='Sujit Nirmal (@blacksujit)',
     author_email='nirmalsujit981@gmail.com',
-    url='https://github.com/yourusername/ml-deploy-lite',
+    url='https://github.com/Blacksujit/ML-Deploy-Lite.git',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
