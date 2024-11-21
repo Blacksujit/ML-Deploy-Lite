@@ -1,16 +1,7 @@
-<<<<<<< HEAD
 Flask
 gunicorn
 docker
 pyyaml
 joblib
 scikit-learn
-=======
-Flask
-gunicorn
-docker
-pyyaml
-joblib
-scikit-learn
->>>>>>> c399d30 (This library  is done on version 0.7  🐍)
 prometheus_flask_exporter
