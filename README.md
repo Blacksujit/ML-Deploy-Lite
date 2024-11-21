@@ -1,4 +1,4 @@
-# ML-Deploy-Lite
+# ml-deploy-lite
 
 `ml-deploy-lite` is a Python library designed to simplify the deployment of machine learning models. It allows developers to quickly turn their models into REST APIs or gRPC services with minimal configuration. The library integrates seamlessly with Docker and Kubernetes, providing built-in monitoring and logging for performance and error tracking.
 
@@ -156,7 +156,7 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 ## License
 
-This project is licensed under the MIT License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
@@ -165,7 +165,7 @@ For more information, please refer to the [documentation](https://flask.palletsp
 ---
 
 
-## Conclusion
+# Conclusion
 
 This `README.md` file provides a comprehensive overview of your `ml-deploy-lite` library, including installation instructions, usage examples, and details on Docker and Kubernetes integration. It is structured to help users understand how to use the library effectively without encountering errors. Feel free to modify any sections to better fit your project's specifics or to add any additional information you think is necessary!
 
