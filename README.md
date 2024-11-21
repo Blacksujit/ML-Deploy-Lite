@@ -1,4 +1,4 @@
-# ml-deploy-lite
+# ML-Deploy-Lite
 
 `ml-deploy-lite` is a Python library designed to simplify the deployment of machine learning models. It allows developers to quickly turn their models into REST APIs or gRPC services with minimal configuration. The library integrates seamlessly with Docker and Kubernetes, providing built-in monitoring and logging for performance and error tracking.
 
