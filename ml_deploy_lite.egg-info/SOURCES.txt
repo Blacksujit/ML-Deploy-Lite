@@ -1,10 +1,10 @@
 README.md
 setup.py
-ml-deploy-lite/__init__.py
-ml-deploy-lite/api.py
-ml-deploy-lite/docker.py
-ml-deploy-lite/k8s.py
-ml-deploy-lite/monitoring.py
+ml_deploy_lite/__init__.py
+ml_deploy_lite/api.py
+ml_deploy_lite/docker.py
+ml_deploy_lite/k8s.py
+ml_deploy_lite/monitoring.py
 ml_deploy_lite.egg-info/PKG-INFO
 ml_deploy_lite.egg-info/SOURCES.txt
 ml_deploy_lite.egg-info/dependency_links.txt

@@ -1,1 +1,1 @@
-ml-deploy-lite
+ml_deploy_lite

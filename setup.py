@@ -3,8 +3,8 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='ml-deploy-lite',
-    version='0.3',
+    name='ml_deploy_lite',
+    version='0.5',
     packages=find_packages(),
     install_requires=[
         'Flask',
@@ -15,7 +15,7 @@ setup(
         'scikit-learn',
         'prometheus_flask_exporter'
     ],
-    description='A library to simplify ML model deployment',
+    description='A library to simplify your ML model deployments',
     long_description='''\
 
 # ML Deploy Lite
@@ -26,7 +26,7 @@ Installation:
 To install the library, run the following command:
 
 ```
-pip install ml-deploy-lite
+pip install ml_deploy_lite
 ```
 
 ## Key Features:

@@ -1,7 +1,7 @@
 Metadata-Version: 2.1
-Name: ml-deploy-lite
-Version: 0.3
-Summary: A library to simplify ML model deployment
+Name: ml_deploy_lite
+Version: 0.5
+Summary: A library to simplify your ML model deployments
 Home-page: https://github.com/Blacksujit/ML-Deploy-Lite.git
 Author: Sujit Nirmal (@blacksujit)
 Author-email: nirmalsujit981@gmail.com
@@ -27,7 +27,7 @@ Installation:
 To install the library, run the following command:
 
 ```
-pip install ml-deploy-lite
+pip install ml_deploy_lite
 ```
 
 ## Key Features:

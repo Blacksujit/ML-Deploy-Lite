@@ -1,8 +1,7 @@
-# ML-Deploy-Lite
+# ml_deploy_lite
 
-`ml-deploy-lite` is a Python library designed to simplify the deployment of machine learning models. It was created to address the common challenges faced during the deployment process, such as the complexity of setting up REST APIs or gRPC services, the need for Docker and Kubernetes integration, and the lack of built-in monitoring and logging for performance and error tracking.
+`ml_deploy_lite` is a Python library designed to simplify the deployment of machine learning models. It was created to address the common challenges faced during the deployment process, such as the complexity of setting up REST APIs or gRPC services, the need for Docker and Kubernetes integration, and the lack of built-in monitoring and logging for performance and error tracking.
 
-## Visit Library -- [here](https://pypi.org/project/ml-deploy-lite/)
 
 ## Table of Contents
 
@@ -10,7 +9,7 @@
 - [Usage](#usage)
 - [Features](#features)
 - [Challenges in Deployments](#challenges-in-deployments)
-- [Why `ml-deploy-lite`?](#why-ml-deploy-lite)
+- [Why `ml_deploy_lite`?](#why-ml-deploy-lite)
 - [Creating a Sample Model](#creating-a-sample-model)
 - [Docker Integration](#docker-integration)
 - [Kubernetes Integration](#kubernetes-integration)
@@ -26,9 +25,9 @@
 
 - **Monitoring and Logging**: Without built-in support for monitoring and logging, it can be difficult to track the performance of the deployed models and identify errors.
 
-## Why `ml-deploy-lite`?
+## Why `ml_deploy_lite`?
 
-`ml-deploy-lite` was created to simplify the deployment process for machine learning models. It provides a user-friendly interface for quickly converting models into REST APIs or gRPC services, automatically generates Dockerfiles for containerization, and simplifies the generation of Kubernetes deployment configurations. It also includes built-in support for monitoring performance and logging errors, making it easier for developers to track the performance of their deployed models.
+`ml_deploy_lite` was created to simplify the deployment process for machine learning models. It provides a user-friendly interface for quickly converting models into REST APIs or gRPC services, automatically generates Dockerfiles for containerization, and simplifies the generation of Kubernetes deployment configurations. It also includes built-in support for monitoring performance and logging errors, making it easier for developers to track the performance of their deployed models.
 
 ## Features
 
@@ -44,17 +43,17 @@
 
 ## Installation
 
-To install `ml-deploy-lite`, you can use pip. Make sure you have Python 3.6 or higher installed.
+To install `ml_deploy_lite`, you can use pip. Make sure you have Python 3.6 or higher installed.
 
 
 ```
-pip install ml-deploy-lite
+pip install ml_deploy_lite
 
 ```
 
 ## Usage
 
-Here’s a simple example of how to use `ml-deploy-lite` to deploy a machine learning model.
+Here’s a simple example of how to use `ml_deploy_lite` to deploy a machine learning model.
 
 1. **Import the Library**:
 
@@ -75,6 +74,30 @@ deployer.run()
 ```
 
 4. **Make Predictions**:
+
+
+## Test with curl: 
+
+``Open a terminal and run the following command:``
+
+```
+curl -X POST http://127.0.0.1:5000/predict \
+-H "Content-Type: application/json" \
+-d '{"features": [5.1, 3.5, 1.4, 0.2]}'
+
+```
+
+``You should see a JSON response like:``
+
+```
+{
+    "prediction": 0
+}
+
+```
+
+`OR`
+
 
 You can make predictions by sending a POST request to the `/predict` endpoint with the following JSON body:
 
@@ -105,7 +128,7 @@ model.fit(X, y)
 joblib.dump(model, 'ml_deploy_lite/model/sample_model.pkl')
 ```
 
-Run this script to generate a sample model that you can use with `ml-deploy-lite`.
+Run this script to generate a sample model that you can use with `ml_deploy_lite`.
 
 ## Docker Integration
 
@@ -188,4 +211,4 @@ For more information, please refer to the [documentation](https://flask.palletsp
 
 # Conclusion
 
-This `README.md` file provides a comprehensive overview of your `ml-deploy-lite` library, including installation instructions, usage examples, and details on Docker and Kubernetes integration. It is structured to help users understand how to use the library effectively without encountering errors. Feel free to modify any sections to better fit your project's specifics or to add any additional information you think is necessary!
+This `README.md` file provides a comprehensive overview of your `ml_deploy_lite` library, including installation instructions, usage examples, and details on Docker and Kubernetes integration. It is structured to help users understand how to use the library effectively without encountering errors. Feel free to modify any sections to better fit your project's specifics or to add any additional information you think is necessary!
