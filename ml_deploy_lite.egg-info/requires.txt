@@ -1,0 +1,7 @@
+Flask
+gunicorn
+docker
+pyyaml
+joblib
+scikit-learn
+prometheus_flask_exporter
