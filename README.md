@@ -26,7 +26,7 @@
 
 - **Monitoring and Logging**: Without built-in support for monitoring and logging, it can be difficult to track the performance of the deployed models and identify errors.
 
-## Why `ml_deploy_lite`?
+## Why `ml_deploy_lite`?:
 
 `ml_deploy_lite` was created to simplify the deployment process for machine learning models. It provides a user-friendly interface for quickly converting models into REST APIs or gRPC services, automatically generates Dockerfiles for containerization, and simplifies the generation of Kubernetes deployment configurations. It also includes built-in support for monitoring performance and logging errors, making it easier for developers to track the performance of their deployed models.
 
